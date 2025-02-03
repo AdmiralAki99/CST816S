@@ -73,7 +73,7 @@ The Application Layer provides smartwatch-specific logic, integrating I2C with o
 - `app_get_latest_touch_data(bsp_touch_data_t *touch_data)`
 
 ## **Integration with Other Components**
-This BLE server is designed to integrate seamlessly with other smartwatch components:
+This CST816S I2C driver is designed to integrate seamlessly with other smartwatch components:
 - **BLE Server Driver:** Reads, updates and notifies the Connected device of the server state.
 - **LVGL UI Library:** Displays Information based on the BLE profile on a graphical interface.
 
