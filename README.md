@@ -7,11 +7,10 @@ This repository showcases a CST816S touch screen component. It is made in a modu
 ## **Features**
 
 - **Layered Architecture:** Implements a clean separation between HAL (Hardware Abstraction Layer), BSP (Board Support Layer), and the Application Layer.
-- **Dynamic Profile Management:** Supports dynamic creation and management of BLE profiles and characteristics.
-- **Notification Support:** Efficient notification handling for real-time updates to connected clients.
-- **Power Management:** Integrated power-saving features using low-power BLE advertising and light sleep mode.
-- **Thread Safety:** Uses FreeRTOS semaphores for synchronized access to shared resources.
-- **Modular Design:** Demonstrates integration potential with other components like I2C drivers and LVGL for UI.
+- **Read Touch Data:** Read the touch data from the CST816S device 
+- **Interrupt Mechanism:** Use an interrrupt mechanism (ISR) to reduce the overhead by continuously polling and use the interrupt to handle the touch gesture
+- **Noise Filtering:** Filtering the ghost/noise touches on the screen that can occur from light pressure or leftover pressure
+- **Modular Design:** Demonstrates integration potential with other components like BLE GATT drivers and LVGL for UI.
 
 ## **Project Structure**
 
