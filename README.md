@@ -1,6 +1,6 @@
-# BLE Server Component for Smartwatch
+# CST816S Touch Screen Component for Smartwatch
 
-This repository showcases a BLE Server component designed specifically for a smartwatch project. It is made in a modular layered embedded architecture for easier feature addition and changing the logic or swapping MCU's.
+This repository showcases a CST816S touch screen component. It is made in a modular layered embedded architecture for easier feature addition and changing the logic or swapping MCU's.
 
 ## **Layered Architecture**
 
@@ -22,6 +22,7 @@ This repository showcases a BLE Server component designed specifically for a sma
 |   |-- app_touch.c           # Application-specific logic
 |-- include/
 |   |-- hal_touch.h           # HAL public header
+|   |-- hal_data_types.h           # HAL public header
 |   |-- bsp_touch.h           # BSP public header
 |   |-- app_touch.h           # Application interface
 |-- README.md                 # Documentation
